@@ -1,5 +1,5 @@
 #include "main.h"
-int puss(char *c)
+int str(char *c)
 {
 	int i;
 	if (c)
