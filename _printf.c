@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 		}
 		else if (format[i + 1] == 's')
 		{
-			s_count = str(va_arg(args, char *));
+			s_count = str(va_arg(args, char));
 			i++;
 			byte += (s_count - 1);
 		}
