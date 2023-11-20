@@ -6,7 +6,7 @@ int str(char *c)
 	{
 		for (i = 0; c[i] != '\0'; i++)
 		{
-			if (c[i]== NULL)
+			if (c== NULL)
 			{
 				return("(null)");
 			}
