@@ -6,7 +6,7 @@
  */
 int _printf(const char *format, ...)
 {
-	unsigned int i, byte, s_count=0;
+	unsigned int i, byte, s_count;
 	va_list args;
 	va_start(args, format);
 	if (!format || (format[0] == '%' && format[1] == '\0'))
