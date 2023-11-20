@@ -6,6 +6,10 @@ int str(char *c)
 	{
 		for (i = 0; c[i] != '\0'; i++)
 		{
+			if (c[i]== NULL)
+			{
+				return("(null)");
+			}
 			_putchar(c[i]);
 		}
 	}
