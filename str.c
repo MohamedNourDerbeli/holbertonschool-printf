@@ -1,12 +1,12 @@
 #include "main.h"
-int str(char *c)
+int puss(char *c)
 {
 	int i;
 	if (c)
 	{
 		for (i = 0; c[i] != '\0'; i++)
 		{
-			putchar(c[i]);
+			_putchar(c[i]);
 		}
 	}
 	return (i);
