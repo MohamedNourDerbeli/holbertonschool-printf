@@ -34,6 +34,11 @@ int _printf(const char *format, ...)
 			_putchar('%');
 			i++;
 		}
+		else if (format[i + 1])
+		{
+			_putchar(va_arg(args, int));
+		}
+		
 
 		byte += 1;
 	}
