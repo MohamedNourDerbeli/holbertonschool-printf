@@ -1,13 +1,18 @@
 #include "main.h"
+/**
+ * str - Entry point
+ * @c: char
+ * Return: i
+ */
 int str(char *c)
 {
 	int i;
-
+	
 	if (c == NULL)
 	{
-		c = "(null)";
+		c= "(null)";
 	}
-
+	
 	for (i = 0; c[i] != '\0'; i++)
 	{
 
