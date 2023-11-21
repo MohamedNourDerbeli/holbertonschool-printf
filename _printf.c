@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0
+ * _printf - Entry point
+ * @format: char
+ * Return: byte size
  */
 int _printf(const char *format, ...)
 {
@@ -38,7 +38,6 @@ int _printf(const char *format, ...)
 		{
 			_putchar('%');
 		}
-		
 
 		byte += 1;
 	}
